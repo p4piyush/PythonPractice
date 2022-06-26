@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>LOGIN</title>
+    <title>Create Account</title>
     <style>
       a {
         color: rgb(0, 0, 0);
@@ -22,23 +22,25 @@
 
   <body style="background-color:rgb(241, 241, 192) ;">
     <center>
-    <h1 > LOGIN </h1>
-    <form action="/login/" method="post">
+    <h1 > ENTER DETAILS </h1>
+    <form action="/create_account/" method="post">
       <table border="0">
         <tr><td><a>Enter Email Address:</a></td><td><input type="text" name="email"></td></tr>
+        <tr><td><a>Enter Name:</a></td><td><input type="text" name="username"></td></tr>
         <tr><td><a>Enter Password:</a></td><td><input type="password" name="userpassword"></td></tr>
 
         <tr>
           <td></td>
           <td>
-            <button name="login" type="submit"  value="LOGIN">LOGIN</button>
+            <button name="reset" type="reset"  value="RESET">RESET</button>
+            <button name="submit" type="submit" value="CREATE">CREATE</button>
           </td>
         </tr>
         
       </table>
     </form>
     <p style="color: red;">{{result}}</p>
-    <h3 ><a href="/">HOME</a> </3>
+    <h3 ><a href="/">HOME</a>  <a href="/login/">LOGIN</a> </3>
   </center>
   </body>
 </html>
