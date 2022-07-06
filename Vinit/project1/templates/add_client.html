@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add New Client</title>
+</head>
+<body>
+<h1>Add client</h1>
+<a href="/client/">HOME</a> <br><br>
+
+{{result}}<br>
+
+    <form action="/client/add client", Method="POST">
+    Client Id  : <input type="text" name="cltid" > <br><br>
+    Client Firstname  : <input type="text" name="cltfnm"> <br><br>
+    Client LastName  : <input type="text" name="cltlnm"> <br><br>
+    Client Mobile NO: <input type="text" name="cltmob"> <br><br>
+    Client Address  : <input type="text" name="cltaddr"> <br><br>
+    Client Account :<input type="checkbox" value="ACC1" name="cltacc"> 2500
+                    <input type="checkbox" value="ACC2" name="cltacc"> 2500[1]
+                    <input type="checkbox" value="ACC3" name="cltacc"> 2500[2]
+                    <input type="checkbox" value="ACC4" name="cltacc"> 5000
+                    <input type="checkbox" value="ACC5" name="cltacc"> 5000[1]
+    <br><br>
+    <input type="submit">
+
+
+
+
+    </form>
+
+</body>
+</html>
