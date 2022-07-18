@@ -1,3 +1,4 @@
+from django.shortcuts import render
 from flask import Flask, request, render_template
 from flask_sqlalchemy import SQLAlchemy
 #######################################################################################
@@ -42,6 +43,21 @@ def register_user():
         msg='Something is wrong....'
         
     return render_template("/register.html",result=msg)
+
+
+@app.route('/search/', methods=['GET','POST']) #for searching
+def search_user():
+    msg=''
+    if request.method=='POST':
+            formdata=request.form
+            search_by_name= formdata.get('fname')
+            msg=ShoebTable.query.filter_by(name=search_by_name).all()
+
+    return render_template('search.html',result=msg)
+
+
+ 
+
 
 
 
