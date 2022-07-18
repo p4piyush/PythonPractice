@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title>Register User</title>
+</head>
+
+<body>
+    <center>
+        <form action="/register/" method="POST">
+            <table>
+                <tr>
+                    <td><a>Id </a></td>
+                    <td><input type="number" name="userid" placeholder="ID will be auto assigned" disabled></td>    
+                </tr>
+                <tr>
+                    <td><a>Name </a></td>
+                    <td><input type="text" name="username"></td>    
+                </tr>
+                <tr>
+                    <td><a>Email ID </a></td>
+                    <td><input type="text" name="useremail"></td>    
+                </tr>
+                <tr>
+                    <td><a>Address </a></td>
+                    <td><input type="text" name="useraddress"></td>    
+                </tr>
+                <tr>
+                    <td><a> </a></td>
+                    <td><input type="submit"></td>    
+                </tr>
+                <tr>
+                    <td><a href="/">HOME </a></td>
+                    <td></td>    
+                </tr>
+            </table>
+
+        </form>
+        <p style="color: red;">{{result}}</p>
+    </center>
+</body>

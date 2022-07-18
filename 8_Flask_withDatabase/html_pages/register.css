@@ -1,0 +1,198 @@
+/*
+	@name register
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1280px; width: 1280px; height: 720px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+
+#page_register_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1280px;
+	height: 720px;
+}
+
+#_bg__register_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1280px;
+	height: 720px;
+	background:rgba(255,255,255,1);
+}
+
+
+#rectangle_1 {
+	top: 232px;
+	left: 378px;
+	width: 537px;
+	height: 34px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #000000;
+	background:rgba(255,255,255,1);
+}
+
+
+#rectangle_2 {
+	top: 287px;
+	left: 378px;
+	width: 537px;
+	height: 35px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #000000;
+	background:rgba(255,255,255,1);
+}
+
+
+#rectangle_3 {
+	top: 343px;
+	left: 378px;
+	width: 537px;
+	height: 34px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #000000;
+	background:rgba(255,255,255,1);
+}
+
+
+#rectangle_4 {
+	top: 398px;
+	left: 378px;
+	width: 537px;
+	height: 34px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #000000;
+	background:rgba(255,255,255,1);
+}
+
+
+#id {
+	top: 241px;
+	left: 258px;
+	width: 198px;
+	height: 40px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 24px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#name {
+	top: 297px;
+	left: 258px;
+	width: 198px;
+	height: 40px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 24px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#email {
+	top: 352px;
+	left: 258px;
+	width: 198px;
+	height: 40px;
+	overflow: visible;
+	font-family: Inter;
+	font-size: 24px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#address {
+	top: 407px;
+	left: 258px;
+	width: 198px;
+	height: 40px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 24px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#registration {
+	top: 131px;
+	left: -88px;
+	width: 1469px;
+	height: 93px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+	color:#917FFB;
+}
+
+#submitbtn {
+	top: 466px;
+	left: 661px;
+	width: 252px;
+	height: 59px;
+}
+
+#rectangle_5 {
+	top: 0px;
+	left: 0px;
+	width: 252px;
+	height: 43px;
+	-ms-border-radius: 19px;
+	-o-border-radius: 19px;
+	-moz-border-radius: 19px;
+	-webkit-border-radius: 19px;
+	border-radius: 19px;
+	-ms-box-shadow:0px 7px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 7px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 7px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 7px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 7px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(145,127,251,1);
+}
+
+
+#submit {
+	top: 6px;
+	left: 10px;
+	width: 235px;
+	height: 70px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+
+/* Add your custom CSS here */

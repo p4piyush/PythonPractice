@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+    <title>Register User</title>
+    <style> 
+        input[type=button], input[type=submit], input[type=reset] {
+          background-color: #04AA6D;
+          border: none;
+          color: white;
+          padding: 16px 32px;
+          text-decoration: none;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+        input[type=text] {
+            width: 100%;
+            padding: 12px 50px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 3px solid #ccc;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+            outline: none;
+            }
+
+        input[type=text]:focus {
+             border: 3px solid #555;
+            }
+    </style>
+</head>
+
+<body>
+    <center>
+        <form action="/register/" method="POST">
+            <table>
+                <tr>
+                    <td><a>Id </a></td>
+                    <td><input type="number" name="userid" placeholder="ID will be auto assigned" disabled></td>    
+                </tr>
+                <tr>
+                    <td><a>Name </a></td>
+                    <td><input type="text" name="username"></td>    
+                </tr>
+                <tr>
+                    <td><a>Email ID </a></td>
+                    <td><input type="text" name="useremail"></td>    
+                </tr>
+                <tr>
+                    <td><a>Address </a></td>
+                    <td><input type="text" name="useraddress"></td>    
+                </tr>
+                <tr>
+                    <td><a> </a></td>
+                    <td><input type="submit"></td>    
+                </tr>
+                <tr>
+                    <td><a href="/">HOME </a></td>
+                    <td></td>    
+                </tr>
+            </table>
+
+        </form>
+        <p style="color: red;">{{result}}</p>
+    </center>
+</body>

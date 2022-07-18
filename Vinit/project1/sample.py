@@ -11,6 +11,18 @@ class ab (db.Model):
     phone= db.Column('phone', db.String(12), primary_key=True) 
     name = db.Column('name',db.String(30))
     about = db.Column('about',db.String(30))
+
+class ab2 (db.Model):
+    __tablename__ = 'CD_table2'
+    phone= db.Column('phone', db.String(12), primary_key=True) 
+    name = db.Column('name',db.String(30))
+    about = db.Column('about',db.String(30))
+
+class ab3 (db.Model):
+    __tablename__ = 'CD_table3'
+    phone= db.Column('phone', db.String(12), primary_key=True) 
+    name = db.Column('name',db.String(30))
+    about = db.Column('about',db.String(30))
     
     print("Table created....")
 
@@ -33,7 +45,17 @@ def ef():
                 about = request.form.get('about'),
                 phone=request.form.get('phone'))
         #entry =ab (name=name, about=about, phone=phone )
+        entry2= ab2(name = request.form.get('name'),
+                about = request.form.get('about'),
+                phone=request.form.get('phone'))
+            
+        entry3= ab3(name = request.form.get('name'),
+                about = request.form.get('about'),
+                phone=request.form.get('phone'))
+
         db.session.add(entry)
+        db.session.add(entry2)
+        db.session.add(entry3)
         db.session.commit()
 
 
